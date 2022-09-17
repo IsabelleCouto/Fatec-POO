@@ -37,4 +37,12 @@ public class Produto {
     public void setQtd(int qtd) {
         this.qtd = qtd;
     }
+
+    public void addQtd(int qtd) {
+        this.qtd += qtd;
+    }
+
+    public void removeQtd(int qtd) {
+        this.qtd -= qtd;
+    }
 }
